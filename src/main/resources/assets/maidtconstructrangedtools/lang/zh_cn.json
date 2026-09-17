@@ -1,0 +1,52 @@
+{
+  "task.maidtconstructrangedtools.crossbow": "弩",
+  "task.maidtconstructrangedtools.crossbow.desc": "女仆主手持有匠魂弩（或战镐）时，会先装填再发射。装了「晶簇」等强化后没有箭也能射出水晶箭。",
+  "task.maidtconstructrangedtools.crossbow.condition.has_tool": "主手持有匠魂弩或战镐",
+
+  "task.maidtconstructrangedtools.fishing_rod": "钓鱼竿（不可用）",
+  "task.maidtconstructrangedtools.fishing_rod.desc": "【已禁用】攻击时会出现异常鱼线且不造成伤害，选中后没有任何效果。要用匠魂钓鱼竿钓鱼请选择女仆自带的「钓鱼」工作模式。",
+  "task.maidtconstructrangedtools.fishing_rod.condition.bugged": "该工作模式存在 bug，已禁用，选中后没有任何效果",
+
+  "task.maidtconstructrangedtools.javelin": "标枪",
+  "task.maidtconstructrangedtools.javelin.desc": "女仆主手持有匠魂标枪时，会蓄力后把标枪投掷出去。每次投掷损耗 1 点耐久。",
+  "task.maidtconstructrangedtools.javelin.condition.has_tool": "主手持有匠魂标枪",
+
+  "task.maidtconstructrangedtools.longbow": "长弓",
+  "task.maidtconstructrangedtools.longbow.desc": "女仆主手持有匠魂长弓时，会拉弓射击敌人。装了「晶簇」等强化后没有箭也能射出水晶箭。",
+  "task.maidtconstructrangedtools.longbow.condition.has_tool": "主手持有匠魂长弓",
+
+  "task.maidtconstructrangedtools.shuriken": "手里剑",
+  "task.maidtconstructrangedtools.shuriken.desc": "女仆背包内有匠魂手里剑时，遇到敌人会自动换到主手投掷出去。",
+  "task.maidtconstructrangedtools.shuriken.condition.has_tool_in_backpack": "女仆背包内有匠魂手里剑",
+
+  "task.maidtconstructrangedtools.throwing_axe": "投斧",
+  "task.maidtconstructrangedtools.throwing_axe.desc": "女仆背包内有匠魂投斧时，遇到敌人会自动换到主手投掷出去。",
+  "task.maidtconstructrangedtools.throwing_axe.condition.has_tool_in_backpack": "女仆背包内有匠魂投斧",
+
+  "task.maidtconstructrangedtools.swasher": "喷流刃",
+  "task.maidtconstructrangedtools.swasher.desc": "女仆主手持有匠魂喷流刃时，会蓄力后喷出流体攻击敌人；罐内没有流体会自动用背包里的流体容器补充。只有岩浆、牛奶、蜂蜜等「有效果」的流体才能喷出弹射物。",
+  "task.maidtconstructrangedtools.swasher.condition.has_fluid": "喷流刃内有有效流体，或背包内有可补充的流体容器",
+
+  "config.maidtconstructrangedtools.ranged_tools.title": "女仆匠魂：远程工具",
+  "config.maidtconstructrangedtools.ranged_tools.crossbow_range": "女仆弩范围",
+  "config.maidtconstructrangedtools.ranged_tools.crossbow_range.tooltip": "女仆使用匠魂弩（含战镐）时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.fishing_rod_range": "女仆钓鱼竿范围",
+  "config.maidtconstructrangedtools.ranged_tools.fishing_rod_range.tooltip": "女仆使用匠魂钓鱼竿时的最大攻击距离（该工作模式当前已禁用，此项保留）",
+  "config.maidtconstructrangedtools.ranged_tools.javelin_range": "女仆标枪范围",
+  "config.maidtconstructrangedtools.ranged_tools.javelin_range.tooltip": "女仆使用匠魂标枪时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.longbow_range": "女仆长弓范围",
+  "config.maidtconstructrangedtools.ranged_tools.longbow_range.tooltip": "女仆使用匠魂长弓时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.shuriken_range": "女仆手里剑范围",
+  "config.maidtconstructrangedtools.ranged_tools.shuriken_range.tooltip": "女仆使用匠魂手里剑时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.throwing_axe_range": "女仆投斧范围",
+  "config.maidtconstructrangedtools.ranged_tools.throwing_axe_range.tooltip": "女仆使用匠魂投斧时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_range": "女仆喷流刃范围",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_range.tooltip": "女仆使用匠魂喷流刃时的最大攻击距离",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_auto_refill": "喷流刃自动填充",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_auto_refill.tooltip": "喷流刃内没有流体时，女仆是否自动用背包里的流体容器给它补充流体",
+
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_arrow": "长弓/弩消耗女仆背包内的箭",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_shuriken": "手里剑消耗手里剑",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_throwing_axe": "投斧消耗投斧",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_javelin": "标枪消耗标枪"
+}

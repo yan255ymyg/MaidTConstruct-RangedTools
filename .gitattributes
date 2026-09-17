@@ -1,0 +1,11 @@
+# 统一换行符：仓库里一律 LF，避免 Linux 下 gradlew 因 CRLF 无法执行
+* text=auto eol=lf
+
+# Windows 批处理必须 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行转换
+*.jar binary
+*.png binary
+*.zip binary

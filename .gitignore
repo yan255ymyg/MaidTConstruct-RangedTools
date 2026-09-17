@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Forge dev runtime
+run/
+runs/
+run-data/
+logs/
+
+# 本地编译用依赖 jar（不入库；见 libs/README.md）
+libs/*.jar
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log

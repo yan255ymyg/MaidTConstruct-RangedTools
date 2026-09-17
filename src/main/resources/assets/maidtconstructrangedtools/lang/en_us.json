@@ -1,0 +1,52 @@
+{
+  "task.maidtconstructrangedtools.crossbow": "Crossbow",
+  "task.maidtconstructrangedtools.crossbow.desc": "The maid loads and fires a Tinkers' Construct crossbow (or war pick). With the Crystalshot ability she can fire crystal arrows even without arrows.",
+  "task.maidtconstructrangedtools.crossbow.condition.has_tool": "Holding a Tinkers' Construct crossbow or war pick",
+
+  "task.maidtconstructrangedtools.fishing_rod": "Fishing Rod (unusable)",
+  "task.maidtconstructrangedtools.fishing_rod.desc": "[DISABLED] Attacking renders a broken fishing line and deals no damage, so this work mode does nothing. To fish with a Tinkers' Construct fishing rod use the maid's built-in Fishing work mode.",
+  "task.maidtconstructrangedtools.fishing_rod.condition.bugged": "This work mode is bugged and disabled; selecting it has no effect",
+
+  "task.maidtconstructrangedtools.javelin": "Javelin",
+  "task.maidtconstructrangedtools.javelin.desc": "The maid charges up and throws a Tinkers' Construct javelin. Each throw costs 1 durability.",
+  "task.maidtconstructrangedtools.javelin.condition.has_tool": "Holding a Tinkers' Construct javelin",
+
+  "task.maidtconstructrangedtools.longbow": "Longbow",
+  "task.maidtconstructrangedtools.longbow.desc": "The maid draws and fires a Tinkers' Construct longbow. With the Crystalshot ability she can fire crystal arrows even without arrows.",
+  "task.maidtconstructrangedtools.longbow.condition.has_tool": "Holding a Tinkers' Construct longbow",
+
+  "task.maidtconstructrangedtools.shuriken": "Shuriken",
+  "task.maidtconstructrangedtools.shuriken.desc": "As long as her backpack holds Tinkers' Construct shurikens, the maid swaps them into her main hand and throws them.",
+  "task.maidtconstructrangedtools.shuriken.condition.has_tool_in_backpack": "Tinkers' Construct shurikens in the maid's backpack",
+
+  "task.maidtconstructrangedtools.throwing_axe": "Throwing Axe",
+  "task.maidtconstructrangedtools.throwing_axe.desc": "As long as her backpack holds Tinkers' Construct throwing axes, the maid swaps them into her main hand and throws them.",
+  "task.maidtconstructrangedtools.throwing_axe.condition.has_tool_in_backpack": "Tinkers' Construct throwing axes in the maid's backpack",
+
+  "task.maidtconstructrangedtools.swasher": "Swasher",
+  "task.maidtconstructrangedtools.swasher.desc": "With a Tinkers' Construct swasher the maid charges up and sprays fluid at enemies, refilling an empty tank from fluid containers in her backpack. Only fluids with effects (lava, milk, honey...) produce a projectile.",
+  "task.maidtconstructrangedtools.swasher.condition.has_fluid": "Useful fluid in the swasher, or a fluid container in the backpack",
+
+  "config.maidtconstructrangedtools.ranged_tools.title": "Maid TConstruct: Ranged Tools",
+  "config.maidtconstructrangedtools.ranged_tools.crossbow_range": "Maid crossbow range",
+  "config.maidtconstructrangedtools.ranged_tools.crossbow_range.tooltip": "Maximum attack distance when the maid uses a Tinkers' Construct crossbow (or war pick)",
+  "config.maidtconstructrangedtools.ranged_tools.fishing_rod_range": "Maid fishing rod range",
+  "config.maidtconstructrangedtools.ranged_tools.fishing_rod_range.tooltip": "Maximum attack distance for the Tinkers' Construct fishing rod (that work mode is currently disabled, this option is kept)",
+  "config.maidtconstructrangedtools.ranged_tools.javelin_range": "Maid javelin range",
+  "config.maidtconstructrangedtools.ranged_tools.javelin_range.tooltip": "Maximum attack distance when the maid uses a Tinkers' Construct javelin",
+  "config.maidtconstructrangedtools.ranged_tools.longbow_range": "Maid longbow range",
+  "config.maidtconstructrangedtools.ranged_tools.longbow_range.tooltip": "Maximum attack distance when the maid uses a Tinkers' Construct longbow",
+  "config.maidtconstructrangedtools.ranged_tools.shuriken_range": "Maid shuriken range",
+  "config.maidtconstructrangedtools.ranged_tools.shuriken_range.tooltip": "Maximum attack distance when the maid uses Tinkers' Construct shurikens",
+  "config.maidtconstructrangedtools.ranged_tools.throwing_axe_range": "Maid throwing axe range",
+  "config.maidtconstructrangedtools.ranged_tools.throwing_axe_range.tooltip": "Maximum attack distance when the maid uses Tinkers' Construct throwing axes",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_range": "Maid swasher range",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_range.tooltip": "Maximum attack distance when the maid uses a Tinkers' Construct swasher",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_auto_refill": "Swasher auto refill",
+  "config.maidtconstructrangedtools.ranged_tools.swasher_auto_refill.tooltip": "Whether the maid refills an empty swasher from fluid containers in her backpack",
+
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_arrow": "Longbow/crossbow consumes arrows from the maid's inventory",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_shuriken": "Shurikens are consumed",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_throwing_axe": "Throwing axes are consumed",
+  "config.maidtconstructrangedtools.ranged_tools.consume.consume_javelin": "Javelins are consumed"
+}
