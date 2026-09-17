@@ -38,6 +38,9 @@
 由匠魂自己的 `ToolBuildHandler.createSingleMaterial(...)` 构造，
 骑士史莱姆没有对应部件属性的部位由匠魂自动回退到该部位首个可用材质。
 
+<img width="127" height="203" alt="image" src="https://github.com/user-attachments/assets/32e61014-9de0-4c5e-9efa-abc67bac113d" />
+
+
 ## 各项细节
 
 ### 弹药：长弓 / 弩不要求背包里有箭
